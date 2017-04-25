@@ -36,5 +36,7 @@ p {
     width: 272px;
     margin-top: 48px;
     font-size: 19px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
