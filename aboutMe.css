@@ -31,7 +31,8 @@ p {
 @media (max-width: 479px) {
   .centered-content {
     width: 272px;
-    margin: auto;
+    margin-left: 50%;
+    margin-right: 50%;
   }
   p {
     width: 272px;
