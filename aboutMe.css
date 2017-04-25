@@ -1,0 +1,15 @@
+body {
+	background-color: #191c2e;
+}
+p {
+	font-family: Lato;
+	font-size: 21px;
+	font-weight: 300;
+	color: white;
+	/*margin: auto;*/
+}
+.centered-content {
+	max-width: 560px;
+	margin: 150px auto 0 auto;
+	line-spacing: 30px;
+}
