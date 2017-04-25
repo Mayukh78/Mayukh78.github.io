@@ -9,7 +9,31 @@ p {
 	/*margin: auto;*/
 }
 .centered-content {
-	max-width: 560px;
+	max-width: 640px;
 	margin: 150px auto 0 auto;
 	line-spacing: 30px;
 }
+@media (max-width: 991px) {
+  .default {
+    width: 520px;
+  }
+  .centered-content {
+    width: 640px;
+  }
+}
+
+@media (max-width: 767px) {
+  .centered-content {
+    width: 520px;
+  }
+}
+
+@media (max-width: 479px) {
+  .centered-content {
+    width: 272px;
+  }
+  .default {
+    width: 272px;
+    margin-top: 48px;
+    font-size: 19px;
+  }
